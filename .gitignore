@@ -1,0 +1,36 @@
+# Malware and executable samples
+*.exe
+*.dll
+*.bin
+# Packet captures may contain sensitive traffic
+*.pcap
+*.pcapng
+*.cap
+# Virtual machine disks/exports
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+credentials*
+secrets*
+# Temporary files/logs
+*.tmp
+*.swp
+*.bak
+*.log
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.venv/
+venv/
